@@ -2,7 +2,8 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-
+// This code is for Loading CSV File data into X(features) and Y(label) data.
+//The parameters are filename, number of elements, ypos(i.e) Last column
 class Data{
     int[] yarray;
     int[][] xarray;
